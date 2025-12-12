@@ -1,8 +1,8 @@
 ---
 title: CodeAlpha Language Translator
 emoji: 🌐
-colorFrom: purple
-colorTo: green
+colorFrom: red
+colorTo: red
 sdk: streamlit
 sdk_version: 1.51.0
 app_file: main.py
