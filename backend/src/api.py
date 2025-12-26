@@ -6,10 +6,9 @@ import base64
 
 app = FastAPI()
 
-# Enable CORS for frontend development
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, specify the frontend origin
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -38,7 +37,6 @@ async def translate(request: TranslationRequest):
 async def tts(request: TTSRequest):
     try:
         audio_bytes = text_to_speech(request.text, request.lang)
-        # return as base64 to be easily played in frontend
         audio_base64 = base64.b64encode(audio_bytes).decode("utf-8")
         return {"audio_base64": audio_base64}
     except Exception as e:

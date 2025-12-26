@@ -116,7 +116,6 @@ export const TranslatorCard = () => {
 
   return (
     <div className="w-full max-w-5xl mx-auto animate-fade-in">
-      {/* Language Selection */}
       <div className="flex items-end gap-4 mb-6">
         <div className="flex-1">
           <LanguageSelector
@@ -147,9 +146,7 @@ export const TranslatorCard = () => {
         </div>
       </div>
 
-      {/* Translation Areas */}
       <div className="grid md:grid-cols-2 gap-4">
-        {/* Source Text */}
         <div className="glass-card rounded-2xl p-4 shadow-soft transition-shadow duration-300 hover:shadow-hover">
           <div className="flex items-center justify-between mb-3">
             <div className="flex items-center gap-2">
@@ -198,7 +195,6 @@ export const TranslatorCard = () => {
           </div>
         </div>
 
-        {/* Translated Text */}
         <div className="gradient-border rounded-2xl p-4 shadow-soft transition-shadow duration-300 hover:shadow-hover">
           <div className="flex items-center justify-between mb-3">
             <div className="flex items-center gap-2">
