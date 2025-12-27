@@ -30,7 +30,9 @@ A powerful, real-time language translation application built with **Python (Fast
 
 ## 🚀 Demo
 
-*(Add a screenshot or GIF of your application here)*
+<p align="center">
+  <img src="./assets/demo.gif" alt="Language Translator Demo" width="800" />
+</p>
 
 ## 🛠️ Tech Stack
 
