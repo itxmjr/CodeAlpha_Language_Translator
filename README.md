@@ -118,7 +118,7 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 This application is deployed on Hugging Face Spaces.
 
-Space: https://huggingface.co/spaces/itxmjr/Language-Translator
+Space: https://itxmjr-language-translator.hf.space
 
 ## 📜 License
 
